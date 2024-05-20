@@ -7,9 +7,12 @@ crazy polling system and as that number is well over the unsigned 64 bit int lim
 a custom data type will be needed
 
 unit needs:
-[position, type, id, etc]
+[gridpos position, unitype type, int id, int faction, etc...]
+
+tech & research:
+
 
 
 research:
-128 bit would work for the address searcher
+128 bit would work for the address datatype
 
