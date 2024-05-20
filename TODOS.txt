@@ -7,7 +7,7 @@ crazy polling system and as that number is well over the unsigned 64 bit int lim
 a custom data type will be needed
 
 unit needs:
-[gridpos position, unitype type, int id, int faction, etc...]
+[gridpos position, Unit id, int faction, etc...]
 
 tech & research:
 
@@ -15,4 +15,20 @@ tech & research:
 
 research:
 128 bit would work for the address datatype
+
+
+uml:
+
+
+@startuml
+class Grid
+class Unit
+abstract class Unitfactory
+
+Unit <|-- Unitfactory
+Grid *-- Unit
+
+@enduml
+
+
 
