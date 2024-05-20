@@ -1,6 +1,9 @@
 grid system:
 description: choose between 2d or 3d both of which have problems
 
+different units can take up 1 or more grid squares
+
+
 multi threading:
 description: due to upwards of 100 septillion units in use at a single battle this game will need to a
 crazy polling system and as that number is well over the unsigned 64 bit int limit
@@ -18,15 +21,41 @@ research:
 
 
 uml:
-
+description:
 
 @startuml
 class Grid
 class Unit
-abstract class Unitfactory
+abstract class item
+class weapon
+class usable
+class equipable
+class scriptedItem
+class miscellaneous
+class ammo
+class container
 
-Unit <|-- Unitfactory
 Grid *-- Unit
+item <|-- weapon
+item <|-- usable
+item <|-- equipable
+Unit *-- item
+item <|-- scriptedItem
+item <|-- miscellaneous
+item <|-- ammo
+item <|-- container
+
+Unit : item[] inventory
+Unit : item[] equipped
+item : String name
+item : int category
+scriptedItem : effect()
+weapon : int damage
+weapon : int damageType
+weapon : int range
+weapon : int type
+weapon : Use()
+weapon : ammo[] accepted ammo
 
 @enduml
 
