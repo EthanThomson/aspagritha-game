@@ -4,6 +4,17 @@ description: choose between 2d or 3d both of which have problems
 different units can take up 1 or more grid squares
 
 I may need server meshing for this
+Server meshing:
+assign each server instance its own grid area
+then one or more servers run the replication layer
+grid areas can be assigned dynamically based off units in the area
+
+
+group intelligence:
+each unit running itself would be a computational nightmare
+instead some kind of group intelligence is needed
+
+
 
 multi threading:
 description: due to upwards of 100 septillion units in use at a single battle this game will need to a
