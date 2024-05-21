@@ -9,7 +9,7 @@ public class weapon extends item
     int manipulatorsNeeded;
     ammo[] acceptedAmmo;
 
-    public weapon(String namein, int damagein, int damageTypein, int rangein, int typein, int manipulatorsin)
+    public weapon(String namein, int damagein, int damageTypein, int rangein, int typein, int manipulatorsin, ammo[] acceptedAmmoin)
     {
         this.name = namein;
         this.damage = damagein;
@@ -17,6 +17,7 @@ public class weapon extends item
         this.range = rangein;
         this.type = typein;
         this.manipulatorsNeeded = manipulatorsin;
+        this.acceptedAmmo = acceptedAmmoin;
 
     }
     public void Use()
