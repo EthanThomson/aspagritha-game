@@ -26,15 +26,21 @@ description:
 @startuml
 class Grid
 class Unit
-abstract class item
+
 class weapon
 class usable
 class equipable
 class scriptedItem
 class miscellaneous
 class ammo
-class container
+abstract class item
+abstract class container
+class storeage
+class manipulator
 
+item <|-- container
+container <|-- manipulator
+container <|-- storeage
 Grid *-- Unit
 item <|-- weapon
 item <|-- usable
@@ -43,7 +49,7 @@ Unit *-- item
 item <|-- scriptedItem
 item <|-- miscellaneous
 item <|-- ammo
-item <|-- container
+
 
 Unit : item[] inventory
 Unit : item[] equipped
