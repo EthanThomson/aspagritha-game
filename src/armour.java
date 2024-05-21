@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class armour extends item
 {
     armour[] compatibleArmours;
-    ArrayList onEquipEffects;
+
 
     public armour(String namein, armour[] compatibleArmoursin, ArrayList onEquipEffectsin)
     {
@@ -17,14 +17,27 @@ public class armour extends item
 
     public void onEquip(Unit target)
     {
-        //standard stat increase
-        if((int)onEquipEffects.getFirst() == -101)
+        if (onEquipEffects.isEmpty())
         {
-            onEquipEffects.removeFirst();
-            target.stats = onEquipEffects;
-
+            return;
         }
+        switch ((int)onEquipEffects.getFirst())
+        {
+            //standard stat increase
+            case -101:
+                onEquipEffects.removeFirst();
+                target.stats = onEquipEffects;
+                break;
+            //standard stat decrease
+            case -102:
+                onEquipEffects.removeFirst();
+                for(Object k : target.stats)
+                {
 
+                }
+                target.stats. = onEquipEffects;
+                break;
+        }
     }
 
 
