@@ -10,7 +10,6 @@ public class manipulator extends container
         this.current = null;
         this.name = namein;
         this.maxWeight = maxWeightin;
-
     }
 
 

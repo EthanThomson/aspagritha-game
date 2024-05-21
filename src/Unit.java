@@ -13,7 +13,7 @@ public class Unit
     * power capacity = max power
     *
     */
-    int[] stats;
+    ArrayList stats;
     int power;
 
     public Unit()
@@ -37,6 +37,7 @@ public class Unit
 
     public void equip(item equipment)
     {
+        //equip weapon
         if(equipment.getClass() == weapon.class)
         {
             int x = 0;
@@ -78,5 +79,4 @@ public class Unit
         }
         equipped.add(equipment);
     }
-
 }

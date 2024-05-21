@@ -4,8 +4,6 @@ import java.util.ArrayList;
 
 public class ammo extends item
 {
-    int volume;
-    int weight;
     int count;
 
     public ammo(String namein, int countin)

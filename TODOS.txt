@@ -3,6 +3,7 @@ description: choose between 2d or 3d both of which have problems
 
 different units can take up 1 or more grid squares
 
+I may need server meshing for this
 
 multi threading:
 description: due to upwards of 100 septillion units in use at a single battle this game will need to a
@@ -10,8 +11,8 @@ crazy polling system and as that number is well over the unsigned 64 bit int lim
 a custom data type will be needed
 research:
 128 bit would work for the address datatype
-
-
+96 bytes
+2^88
 
 unit needs:
 [gridpos position, Unit id, int faction, etc...]
@@ -21,13 +22,13 @@ tech & research:
 
 status effects:
 armour:
-shredded, mangled, destroyed, circuitry issue, coated(fallout, ), 
+shredded, mangled, destroyed, circuitry issue, coated(fallout, flammables, ), stranglet disintegration, disintegration
 
 self(Human body):
-bleed, eradiated, detached neural port, 
+bleed, radiated, detached neural port, oxygen deprived
 
 omni(both armour and self):
-fire(staged effect; minimal temp, low temp, med temp, high temp, inferno, conflagration)
+fire(staged effect; minimal temp, low temp, med temp, high temp, inferno, conflagration), eradicated
 
 
 
@@ -36,11 +37,11 @@ uml:
 description:
 
 @startuml
+
 class Grid
 class Unit
-
 class weapon
-class usable
+class armour
 class equipable
 class scriptedItem
 class miscellaneous
@@ -49,13 +50,15 @@ abstract class item
 abstract class container
 class storeage
 class manipulator
+class poller
+class thread
 
 item <|-- container
 container <|-- manipulator
 container <|-- storeage
 Grid *-- Unit
 item <|-- weapon
-item <|-- usable
+item <|-- armour
 item <|-- equipable
 Unit *-- item
 item <|-- scriptedItem
@@ -74,6 +77,9 @@ weapon : int range
 weapon : int type
 weapon : Use()
 weapon : ammo[] accepted ammo
+Unit : move()
+Unit : refill()
+Unit : equip()
 
 @enduml
 
