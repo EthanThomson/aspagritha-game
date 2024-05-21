@@ -19,7 +19,7 @@ public class Main
             ammo casaRifamt4 = new ammo("50 kg Tungsten Explosive round", 0);
             ammo casaRifRon1 = new ammo("50 kg Tungsten Rifled round", 600);
             ammo casaRifRon2 = new ammo("100 kg Tungsten Rifled round", 150);
-            ammo casaRifRon3 = new ammo("25 kg Tungsten Shred round", 90);
+            ammo casaRifRon3 = new ammo("25 kg Tungsten Shred round", 50);
 
             ammo[] casabaRifleAmmoTable = {casaRifamt1, casaRifamt2, casaRifamt3, casaRifamt4};
             weapon casabarifle = new weapon("Marine issue Casaba Rifle", 10, 1, 300, 1, 2, casabaRifleAmmoTable);
