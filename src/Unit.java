@@ -1,5 +1,6 @@
 package src;
 
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,6 +16,7 @@ public class Unit
     */
     ArrayList stats;
     int power;
+    Image sprite;
 
     public Unit()
     {
