@@ -3,7 +3,7 @@ package src;
 public class manipulator extends container
 {
     private item current;
-    private int maxWeight;
+
 
     public manipulator(String namein, int maxWeightin)
     {
