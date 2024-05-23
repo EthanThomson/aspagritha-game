@@ -1,6 +1,6 @@
 package src;
 
-public abstract class scriptedItem extends item
+public class scriptedItem extends item
 {
 
 
