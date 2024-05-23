@@ -28,14 +28,17 @@ public class armour extends item
                 onEquipEffects.removeFirst();
                 target.stats = onEquipEffects;
                 break;
+
             //standard stat decrease
             case -102:
                 onEquipEffects.removeFirst();
-                for(Object k : target.stats)
-                {
+                target.stats = onEquipEffects;
+                break;
 
-                }
-                target.stats. = onEquipEffects;
+            //standard stat multipler
+            case -103:
+                onEquipEffects.removeFirst();
+                target.stats = onEquipEffects;
                 break;
         }
     }
