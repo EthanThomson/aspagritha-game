@@ -10,7 +10,6 @@ public class consumable extends item
 
     public void Use()
     {
-        this = null;
     }
 
 
