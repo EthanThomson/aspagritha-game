@@ -9,6 +9,11 @@ assign each server instance its own grid area
 then one or more servers run the replication layer
 grid areas can be assigned dynamically based off units in the area
 
+Graphics:
+all graphics will be handled though a very advanced system of fonts
+this is the fastest version of 2d graphics i can currently think of
+
+
 
 group intelligence:
 each unit running itself would be a computational nightmare
