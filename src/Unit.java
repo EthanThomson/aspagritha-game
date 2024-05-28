@@ -16,11 +16,12 @@ public class Unit
     */
     ArrayList stats;
     int power;
-    Image sprite;
+    char sprite;
 
     public Unit()
     {
         equipped = new ArrayList<>();
+
     }
     public void move()
     {
