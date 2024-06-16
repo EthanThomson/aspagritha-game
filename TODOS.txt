@@ -8,6 +8,8 @@ use opencl for the maths sid of thr game
 
 
 the movement grid system can work by simply doing the matrix tranformation equation passed to to gpu using opencl
+https://stackoverflow.com/questions/19985690/how-do-i-implement-a-2d-transformation-matrix 
+do this for every unit in parrellel each movement phase of the rising clock reset
 
 
 
