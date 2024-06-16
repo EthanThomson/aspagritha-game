@@ -3,6 +3,16 @@ description: choose between 2d or 3d both of which have problems
 
 different units can take up 1 or more grid squares
 
+use opencl for the maths sid of thr game
+
+
+
+the movement grid system can work by simply doing the matrix tranformation equation passed to to gpu using opencl
+
+
+
+
+
 I may need server meshing for this
 Server meshing:
 assign each server instance its own grid area
