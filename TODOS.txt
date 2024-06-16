@@ -3,6 +3,11 @@ description: choose between 2d or 3d both of which have problems
 
 different units can take up 1 or more grid squares
 
+
+
+
+fuck server meshing we using GPUs for this my homey 
+
 use opencl for the maths sid of thr game
 
 
