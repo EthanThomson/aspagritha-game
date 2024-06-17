@@ -17,4 +17,13 @@ add_executable(Aspagritha main.cpp
         k/src/Unit.cpp
         k/src/Unit.h
         k/src/UnitEnumStore.h
-        k/src/Item.h)
+        k/src/Item.h
+        k/src/WindowControl.h
+        k/src/WindowControl.cpp
+        k/src/WindowControl.cpp
+        k/pakage/glut-3.7/include/GL/glut.h
+        k/pakage/glut-3.7/include/GL/glut.h
+        k/pakage/glut-3.7/include/GL/glut.h
+        k/src/)
+
+

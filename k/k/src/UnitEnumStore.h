@@ -12,9 +12,8 @@ namespace UnitSpace {
 
 
 
-            struct Marine
+            enum Marine
             {
-
 
             };
 

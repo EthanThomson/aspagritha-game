@@ -16,17 +16,17 @@ namespace GridSpace {
         int rows, cols;
 
     public:
-        Grid(int rows, int cols) : rows(rows), cols(cols), grid(rows, std::vector<UnitSpace::Unit>(cols)) {}
+        Grid(int rows, int cols) : rows(rows), cols(cols), grid(rows, std::vector<0>(cols)) {}
 
         // Method to set a Unit at a specific position
-        void setUnit(int row, int col, const Unit& unit) {
+        void setUnit(int row, int col, const UnitSpace::Unit& unit) {
             if (row >= 0 && row < rows && col >= 0 && col < cols) {
                 grid[row][col] = unit;
             }
         }
 
         // Method to get a Unit from a specific position
-        Unit getUnit(int row, int col) const {
+        UnitSpace::Unit getUnit(int row, int col) const {
             if (row >= 0 && row < rows && col >= 0 && col < cols) {
                 return grid[row][col];
             }

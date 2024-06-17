@@ -17,12 +17,14 @@ namespace UnitSpace
         char* Allegence;
         GridSpace::GridCords Coords = GridSpace::GridCords(nullptr, nullptr);
 
+    public:
         Unit(int *X, int *Y, int* racein, std::string* UnitTypein, char* Allegencein) {
             Coords.x = X;
             Coords.y = Y;
             Race = racein;
             UnitType = UnitTypein;
             Allegence = Allegencein;
+            return UnitType;
         }
     }
 
