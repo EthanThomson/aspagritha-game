@@ -63,14 +63,17 @@ research:
 
 tech & research:
 status effects:
-armour:
-shredded, mangled, destroyed, circuitry issue, coated(fallout, flammables, ), stranglet disintegration, disintegration
+body(armour, vehicle, actual body, etc):
+shredded, mangled, destroyed, circuitry issue, coated(fallout, flammables, stranglet, toxins, ), stranglet disintegration, disintegration, corroded, 
 
 self(Human body):
-bleed, radiated, detached neural port, oxygen deprived
+bleed, radiated, detached neural port, oxygen deprived, sleep deprived, 
 
 omni(both armour and self):
 fire(staged effect; minimal temp, low temp, med temp, high temp, inferno, conflagration), eradicated
+
+effects can have multiple starters onhit, ondeath, onsecondarychance, 
+
 
 uml:
 description:
