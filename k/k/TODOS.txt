@@ -72,7 +72,7 @@ bleed, radiated, detached neural port, oxygen deprived, sleep deprived,
 omni(both armour and self):
 fire(staged effect; minimal temp, low temp, med temp, high temp, inferno, conflagration), eradicated
 
-effects can have multiple starters onhit, ondeath, onsecondarychance, 
+effects can have multiple starters onhit, ondeath, onsecondarychance, ondamage, oncoords
 
 
 uml:
