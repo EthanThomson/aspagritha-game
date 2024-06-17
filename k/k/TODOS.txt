@@ -3,6 +3,23 @@ description: choose between 2d or 3d both of which have problems
 
 different units can take up 1 or more grid squares
 
+
+
+
+fuck server meshing we using GPUs for this my homey 
+
+use opencl for the maths sid of thr game
+
+
+
+the movement grid system can work by simply doing the matrix tranformation equation passed to to gpu using opencl
+https://stackoverflow.com/questions/19985690/how-do-i-implement-a-2d-transformation-matrix 
+do this for every unit in parrellel each movement phase of the rising clock reset
+
+
+
+
+
 I may need server meshing for this
 Server meshing:
 assign each server instance its own grid area
