@@ -4,6 +4,8 @@ description: choose between 2d or 3d both of which have problems
 different units can take up 1 or more grid squares
 
 
+GIGABRAIN IDEA: instead of storing the units oj the grid the grid is solely used to as a pointermap to lookup units when maths happens on the grid
+
 
 
 fuck server meshing we using GPUs for this my homey 
