@@ -7,6 +7,18 @@ different units can take up 1 or more grid squares
 GIGABRAIN IDEA: instead of storing the units oj the grid the grid is solely used to as a pointermap to lookup units when maths happens on the grid
 
 
+pseudo: 
+
+from the start of a effect: exp a marine(0,0) shoots at a enemy(0,10) the marine creates a line along these points with a width of 1 cell this line also has attached to it the intended unit it wants to affect, using some crazy algebra come up with a equation that'll return only any units along the line along with a two chars (only needs to be a byte) these chars(cover, distance) are added to the hitCalculaton equation as weights.
+
+if only the enemy is returned then good just roll for hit and effects, but if some other unit is returned along with the target the roll equation will be effected by a weight from the intent flag of the line. if thr units returned are of 
+
+
+
+
+
+
+
 
 fuck server meshing we using GPUs for this my homey 
 
