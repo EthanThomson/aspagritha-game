@@ -13,7 +13,7 @@ from the start of a effect: exp a marine(0,0) shoots at a enemy(0,10) the marine
 
 if only the enemy is returned then good just roll for hit and effects, but if some other unit is returned along with the target the roll equation will be effected by a weight from the intent flag of the line. if thr units returned are of 
 
-
+R = \max(\{k \cdot w_i \mid k \cdot w_i > Q \} \cup \{ \max(W) \})
 
 
 
