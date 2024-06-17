@@ -1,7 +1,6 @@
 # ninja log v5
-1	161	7403299633656919	build.ninja	90aa0579a7a9b1ca
 3	1034	7403297777443659	CMakeFiles/Aspagritha.dir/main.cpp.obj	93d983109e27fa1b
-1269	2179	7403290737346381	CMakeFiles/Aspagritha.dir/k/src/GridCords.cpp.obj	6e9e5bd30ee95dff
-6	1158	7403295699063506	CMakeFiles/main.cpp.dir/main.cpp.obj	2d9f6ea580728a51
-2	273	7403299633656919	build.ninja	90aa0579a7a9b1ca
+1	350	7403303447841109	build.ninja	90aa0579a7a9b1ca
 14	1220	7403300274587981	CMakeFiles/Aspagritha.dir/k/src/GridCords.cpp.obj	d1c9f390cce9ed1f
+6	1158	7403295699063506	CMakeFiles/main.cpp.dir/main.cpp.obj	2d9f6ea580728a51
+4	107	7403302578373863	CMakeFiles/Aspagritha.dir/k/src/WindowControl.cpp.obj	5294f7708926a233

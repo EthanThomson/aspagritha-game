@@ -55,42 +55,6 @@ build CMakeFiles/Aspagritha.dir/main.cpp.obj: CXX_COMPILER__Aspagritha_unscanned
   OBJECT_DIR = CMakeFiles\Aspagritha.dir
   OBJECT_FILE_DIR = CMakeFiles\Aspagritha.dir
 
-build CMakeFiles/Aspagritha.dir/k/src/AutonomusUnit.cpp.obj: CXX_COMPILER__Aspagritha_unscanned_Debug C$:/Users/Mercurios/CLionProjects/aspagritha-game/k/k/src/AutonomusUnit.cpp || cmake_object_order_depends_target_Aspagritha
-  DEP_FILE = CMakeFiles\Aspagritha.dir\k\src\AutonomusUnit.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Aspagritha.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aspagritha.dir\k\src
-
-build CMakeFiles/Aspagritha.dir/k/src/Grid.cpp.obj: CXX_COMPILER__Aspagritha_unscanned_Debug C$:/Users/Mercurios/CLionProjects/aspagritha-game/k/k/src/Grid.cpp || cmake_object_order_depends_target_Aspagritha
-  DEP_FILE = CMakeFiles\Aspagritha.dir\k\src\Grid.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Aspagritha.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aspagritha.dir\k\src
-
-build CMakeFiles/Aspagritha.dir/k/src/GridCords.cpp.obj: CXX_COMPILER__Aspagritha_unscanned_Debug C$:/Users/Mercurios/CLionProjects/aspagritha-game/k/k/src/GridCords.cpp || cmake_object_order_depends_target_Aspagritha
-  DEP_FILE = CMakeFiles\Aspagritha.dir\k\src\GridCords.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Aspagritha.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aspagritha.dir\k\src
-
-build CMakeFiles/Aspagritha.dir/k/src/GridSlice.cpp.obj: CXX_COMPILER__Aspagritha_unscanned_Debug C$:/Users/Mercurios/CLionProjects/aspagritha-game/k/k/src/GridSlice.cpp || cmake_object_order_depends_target_Aspagritha
-  DEP_FILE = CMakeFiles\Aspagritha.dir\k\src\GridSlice.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Aspagritha.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aspagritha.dir\k\src
-
-build CMakeFiles/Aspagritha.dir/k/src/PlayerUnit.cpp.obj: CXX_COMPILER__Aspagritha_unscanned_Debug C$:/Users/Mercurios/CLionProjects/aspagritha-game/k/k/src/PlayerUnit.cpp || cmake_object_order_depends_target_Aspagritha
-  DEP_FILE = CMakeFiles\Aspagritha.dir\k\src\PlayerUnit.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Aspagritha.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aspagritha.dir\k\src
-
-build CMakeFiles/Aspagritha.dir/k/src/Unit.cpp.obj: CXX_COMPILER__Aspagritha_unscanned_Debug C$:/Users/Mercurios/CLionProjects/aspagritha-game/k/k/src/Unit.cpp || cmake_object_order_depends_target_Aspagritha
-  DEP_FILE = CMakeFiles\Aspagritha.dir\k\src\Unit.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Aspagritha.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aspagritha.dir\k\src
-
 build CMakeFiles/Aspagritha.dir/k/src/WindowControl.cpp.obj: CXX_COMPILER__Aspagritha_unscanned_Debug C$:/Users/Mercurios/CLionProjects/aspagritha-game/k/k/src/WindowControl.cpp || cmake_object_order_depends_target_Aspagritha
   DEP_FILE = CMakeFiles\Aspagritha.dir\k\src\WindowControl.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
@@ -105,7 +69,7 @@ build CMakeFiles/Aspagritha.dir/k/src/WindowControl.cpp.obj: CXX_COMPILER__Aspag
 #############################################
 # Link the executable Aspagritha.exe
 
-build Aspagritha.exe: CXX_EXECUTABLE_LINKER__Aspagritha_Debug CMakeFiles/Aspagritha.dir/main.cpp.obj CMakeFiles/Aspagritha.dir/k/src/AutonomusUnit.cpp.obj CMakeFiles/Aspagritha.dir/k/src/Grid.cpp.obj CMakeFiles/Aspagritha.dir/k/src/GridCords.cpp.obj CMakeFiles/Aspagritha.dir/k/src/GridSlice.cpp.obj CMakeFiles/Aspagritha.dir/k/src/PlayerUnit.cpp.obj CMakeFiles/Aspagritha.dir/k/src/Unit.cpp.obj CMakeFiles/Aspagritha.dir/k/src/WindowControl.cpp.obj
+build Aspagritha.exe: CXX_EXECUTABLE_LINKER__Aspagritha_Debug CMakeFiles/Aspagritha.dir/main.cpp.obj CMakeFiles/Aspagritha.dir/k/src/WindowControl.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Aspagritha.dir
