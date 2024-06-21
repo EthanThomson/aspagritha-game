@@ -4,5 +4,6 @@
 
 #include "AutonomusUnit.h"
 
-namespace UnitSpace {
+namespace UnitSpace
+{
 } // Unit

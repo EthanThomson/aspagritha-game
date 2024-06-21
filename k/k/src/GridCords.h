@@ -20,8 +20,8 @@ namespace GridSpace {
 
         }
 
-        int *x;
-        int *y;
+        int* x;
+        int* y;
     }; // GridSpace
 
 #endif //ASPAGRITHA_GAME_GRIDCORDS_H

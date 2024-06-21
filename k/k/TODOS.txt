@@ -4,6 +4,9 @@ description: choose between 2d or 3d both of which have problems
 different units can take up 1 or more grid squares
 
 
+fuck server meshing we using GPUs for this my homey
+
+
 GIGABRAIN IDEA: instead of storing the units oj the grid the grid is solely used to as a pointermap to lookup units when maths happens on the grid
 
 
@@ -20,9 +23,8 @@ R = \max(\{k \cdot w_i \mid k \cdot w_i > Q \} \cup \{ \max(W) \})
 
 
 
-fuck server meshing we using GPUs for this my homey 
 
-use opencl for the maths sid of thr game
+use opencl for the maths side of the game
 
 
 

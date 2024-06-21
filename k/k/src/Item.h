@@ -7,10 +7,20 @@
 
 namespace ItemSpace {
 
-    class Item {
+    class Item
+    {
+
+
+
+
+
+
 
     };
 
+
 } // ItemSpace
+
+
 
 #endif //ASPAGRITHA_ITEM_H

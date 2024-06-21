@@ -9,6 +9,8 @@ namespace UnitSpace
 {
 #include <string>
 #include "GridCords.h"
+
+#include "Item.h"
     class Unit {
 
     private:
@@ -16,6 +18,7 @@ namespace UnitSpace
         std::string* UnitType;
         char* Allegence;
         GridSpace::GridCords Coords = GridSpace::GridCords(nullptr, nullptr);
+        std::hash<Item> inventory;
 
     public:
         Unit(int *X, int *Y, int* racein, std::string* UnitTypein, char* Allegencein) {
@@ -24,7 +27,9 @@ namespace UnitSpace
             Race = racein;
             UnitType = UnitTypein;
             Allegence = Allegencein;
-            return UnitType;
+
+
+
         }
     }
 
